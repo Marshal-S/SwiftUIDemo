@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct PencilDetail: View {
+    @ObservedObject var detailModel = PencilDetailModel()
+    
     var symbol: String
     var body: some View {
         ScrollView(.vertical, showsIndicators: true, content: {
@@ -30,8 +32,9 @@ struct PencilDetail: View {
                 }
                 //id可以设置里面指定item属性，如果是个字符串可以直接\.self，表示对象本身
                 //如果集合内对象里面有id唯一属性，可设置成\.id，id用来优化List的性能
-                ForEach(1...7, id: \.self) { num in
-                    Text("通过ForEach将集合生成若干个视图,我是视图\(num)")
+                Text("通过ForEach将集合生成若干个视图")
+                ForEach(detailModel.list, id: \.self) { num in
+                    Text(num)
                 }
             }
         })

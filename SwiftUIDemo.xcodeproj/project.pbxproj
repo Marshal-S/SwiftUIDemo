@@ -22,6 +22,7 @@
 		66D059AC2797E62600E530FE /* PencilDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D059AB2797E62600E530FE /* PencilDetail.swift */; };
 		66D059B42797FD3800E530FE /* DrawPathDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D059B32797FD3800E530FE /* DrawPathDetail.swift */; };
 		66D059B92797FD4300E530FE /* AnimationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D059B82797FD4300E530FE /* AnimationDetail.swift */; };
+		8241D97C27A913A00044D933 /* PencilDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D97B27A913A00044D933 /* PencilDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		66D059AB2797E62600E530FE /* PencilDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilDetail.swift; sourceTree = "<group>"; };
 		66D059B32797FD3800E530FE /* DrawPathDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPathDetail.swift; sourceTree = "<group>"; };
 		66D059B82797FD4300E530FE /* AnimationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetail.swift; sourceTree = "<group>"; };
+		8241D97B27A913A00044D933 /* PencilDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilDetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				66D059962797B3E000E530FE /* Symbols.swift */,
 				667FB9D127755C2900C73AA6 /* ContentView.swift */,
 				66D0599E2797B8EB00E530FE /* ListRow.swift */,
+				8241D97B27A913A00044D933 /* PencilDetailModel.swift */,
 				66D059AB2797E62600E530FE /* PencilDetail.swift */,
 				66D059A62797E60D00E530FE /* Folder.swift */,
 				668A548C279A84CA006B404E /* FoldDetail.swift */,
@@ -296,6 +299,7 @@
 				66D059B92797FD4300E530FE /* AnimationDetail.swift in Sources */,
 				66D059B42797FD3800E530FE /* DrawPathDetail.swift in Sources */,
 				66D059AC2797E62600E530FE /* PencilDetail.swift in Sources */,
+				8241D97C27A913A00044D933 /* PencilDetailModel.swift in Sources */,
 				66D0599F2797B8EB00E530FE /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
