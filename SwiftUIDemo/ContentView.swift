@@ -27,14 +27,14 @@ struct ContentView: View {
                 //.navigationBarTitle("pencil", displayMode: .inline) //这就是国内默认使用样式了
             }.tabItem {
                 Image(systemName: "pencil.circle")
-                Text("pencil")
+                Text("首页")
             }
             
             NavigationView {
                 Folder()
             }.tabItem {
                 Image(systemName: "folder.circle")
-                Text("folder")
+                Text("我的")
             }
         }
     }

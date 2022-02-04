@@ -22,7 +22,6 @@ struct ListRow: View {
                 Spacer()
             }
         }
-        
     }
 }
 
