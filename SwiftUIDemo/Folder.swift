@@ -88,7 +88,6 @@ struct Folder: View {
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
                                 .padding(.top, 1)
-                                
                         }
                     })
                     Spacer()
@@ -114,15 +113,8 @@ struct Folder: View {
                         }
                     })
                 }.padding([.leading, .trailing], 10)
-
                 .padding(.top, 1)
-                
-                
-                
             }.padding(.top, 20)
-            
-            
-            
         }
         .navigationBarTitle("pencil") //默认是国外的样式
         .navigationBarItems(leading: leftBarItem, trailing: rightBarItem)

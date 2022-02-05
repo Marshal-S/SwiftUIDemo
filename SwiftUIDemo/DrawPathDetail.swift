@@ -88,7 +88,7 @@ struct customView: View {
             path.move(to: CGPoint(x: 20, y: 40))
             path.addLine(to: CGPoint(x: 20, y: 100))
             //贝塞尔曲线，一个控制点
-            path.addQuadCurve(to: CGPoint(x: 100, y: 100), control: CGPoint(x: 60, y: 100))
+            path.addQuadCurve(to: CGPoint(x: 100, y: 100), control: CGPoint(x: 60, y: 60))
             path.addLine(to: CGPoint(x: 100, y: 40))
             //连个控制点的贝塞尔曲线
             path.addCurve(to: CGPoint(x: 20, y: 40), control1: CGPoint(x: 60, y: 0), control2: CGPoint(x: 60, y: 80))

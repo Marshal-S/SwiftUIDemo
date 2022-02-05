@@ -41,7 +41,7 @@ struct AnimationDetail: View {
                     Text("旋转")
                 }.padding(.top, 10)
                 .rotationEffect(.degrees(isRoate ? 90 : 0))
-                .animation(.easeInOut)//慢入满出过渡
+                .animation(.easeInOut)//慢入慢出过渡
                 
                 Button("透明") {
                     isOpacity.toggle()
@@ -62,7 +62,7 @@ struct AnimationDetail: View {
                 Button("切换转场动画") {
                     //可以设置动画时长和过渡曲线来开启动画
                     withAnimation(.easeInOut(duration: 2)) {
-                        isShowTransition.toggle() //通过其控制空话
+                        isShowTransition.toggle() //通过其控制动画
                     }
                 }.padding(.top, 10)
                 
@@ -70,7 +70,7 @@ struct AnimationDetail: View {
                     //由于flex布局问题，通过动画切换的会发现整体动画很好玩
                     //虽然别人可以控制动画过渡时间和变换曲线，变化效果取决子自身
                     //例如：缩放、显隐、平移或者混合等
-                    //不设置默认效果视乎是溶解，或者opacity过渡
+                    //不设置默认效果似乎是溶解，或者opacity过渡
                     HStack {
                         Text("左侧0")
                         Spacer()
