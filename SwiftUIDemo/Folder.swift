@@ -137,7 +137,8 @@ struct Folder: View {
     
     var rightBarItem: some View {
         //这里演示一下怎么动态控制进入下一页，通过按钮控制状态进入
-        NavigationLink(destination: AnimationDetail(), isActive: $isEnterAnimation){
+        HStack {
+            NavigationLink(destination: AnimationDetail(), isActive: $isEnterAnimation){}
             Button {
                 self.isEnterAnimation = true
             } label: {
